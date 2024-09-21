@@ -28,24 +28,37 @@ The dataset includes the following attributes:
 ## Movie Metadata ##
 
 title: The movie title
+
 directedBy: Director of the movie
+
 starring: Main actors
+
 avgRating: Average rating on MovieLens
+
 imdbId: IMDb ID of the movie
+
 item_id: Movie ID
 
 ## Survey Answers ##
 item_id: Movie ID
+
 user_id: User ID
+
 tag_id: Tag ID
+
 score: User confidence in the relevance of the tag to the movie
 
 ## Tags ##
 tag: The tag itself
+
 id: Tag ID
+
 User Ratings
+
 item_id: Movie ID rated
+
 user_id: User ID who rated the movie
+
 rating: User rating for the movie
 
 # Technologies Used # 
