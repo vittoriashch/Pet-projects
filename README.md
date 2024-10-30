@@ -17,6 +17,30 @@ Analyzes movie reviews to enhance recommendations by understanding user sentimen
 Implements Collaborative Filtering and Content-Based approaches to recommend movies.
 This project evaluates the effectiveness of these methods and provides insights through data visualization.
 
+# [Oil price prediction with the use of DL](https://github.com/vittoriashch/Pet-projects/blob/main/Python_projects/Oil_price_prediction%20(2).ipynb)
+
+This project is dedicated to the development and deployment of several neural networks aimed at predicting Brent crude oil prices. The primary goal is to create a model capable of forecasting price fluctuations based on key factors influencing the current energy market and economic conditions.
+
+## Objectives
+The project aims to:
+* Predict Brent Oil Prices: Utilize modern machine learning techniques to analyze and forecast price movements in the oil market.
+* Analyze Influencing Factors: Investigate various economic and energy indicators, such as supply and demand, geopolitical events, regulatory changes, and other external factors that may impact prices.
+* Optimize Models: Apply different neural network architectures, such as LSTM (Long Short-Term Memory) and RNN (Recurrent neural network), to achieve maximum prediction accuracy.
+
+## Technologies
+
+This project utilizes the following technologies:
+
+- **Python**: The primary programming language.
+- **Jupyter Notebook**: For interactive data analysis and visualization.
+- **Pandas**: For data manipulation and analysis.
+- **NumPy**: For numerical computations.
+- **Tensorflow**: For deep learning algorithms and model evaluation.
+- **Scikit-learn**: For machine learning algorithms and model evaluation.
+- **Matplotlib**: For data visualization.
+- **Yahoo Finance API**: For data gathering 
+
+
 
 # [Probability of Default](https://github.com/vittoriashch/Pet-projects/blob/main/Python_projects/Probability%20of%20default%20pet-project-4.ipynb)
 
