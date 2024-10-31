@@ -17,7 +17,7 @@ Analyzes movie reviews to enhance recommendations by understanding user sentimen
 Implements Collaborative Filtering and Content-Based approaches to recommend movies.
 This project evaluates the effectiveness of these methods and provides insights through data visualization.
 
-# [Oil price prediction with the use of DL](Python_projects/Oil_price_prediction(3).ipynb)
+# [Oil price prediction with the use of DL]([Python_projects/Oil_price_prediction(3).ipynb](https://github.com/vittoriashch/Pet-projects/blob/main/Python_projects/Oil_price_prediction%20(3).ipynb))
 
 This project is dedicated to the development and deployment of several neural networks aimed at predicting Brent crude oil prices. The primary goal is to create a model capable of forecasting price fluctuations based on key factors influencing the current energy market and economic conditions.
 
