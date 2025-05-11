@@ -40,6 +40,82 @@ This project utilizes the following technologies:
 - **Matplotlib**: For data visualization.
 - **Yahoo Finance API**: For data gathering 
 
+# [Causal Inference with Double Machine Learning on Tax Policy Simulation](https://github.com/vittoriashch/HSE-projects)
+
+This project is a simulation-based exploration of the causal effects of tax policy on government revenues using Double Machine Learning (Double ML) and related causal inference techniques. It combines synthetic data generation, classification and regression modeling, and causal effect estimation to understand the impact of high versus low tax rates in complex economic environments.
+
+## Objectives
+
+* Simulate a realistic economic environment with policy-relevant variables such as fiscal deficit, tax progressivity, shadow economy size, inequality, and fiscal culture.
+* Estimate causal effects of high tax rates on tax revenues using multiple approaches, including regression models, classification models, and state-of-the-art machine learning estimators.
+* Compare treatment effect estimation methods, such as ATE, LATE, and CATE, under different assumptions using true potential outcomes and real-model predictions.
+
+
+---
+
+## Key Features
+
+### Data Simulation & Causal Structure
+
+- Designed nonlinear and heteroskedastic functional forms for tax revenue under treatment/control.
+- Incorporated latent confounders to simulate real-world endogeneity.
+- Modeled treatment assignment with logistic probabilities influenced by both observed and unobserved covariates.
+- Visualized DAG structure and correlation matrix of features.
+
+###  Classification Models
+
+- Applied classifiers: `Gradient Boosting`, `Random Forest`, `KNN`, `Naive Bayes`, `Logistic Regression`.
+- Performed hyperparameter tuning via cross-validation using accuracy and F1-score.
+- Assessed models using ROC-AUC, profit-based confusion matrices, and threshold optimization.
+
+### Regression Analysis
+
+- Compared `Linear Regression`, `Random Forest`, and `XGBoost` to model tax revenue.
+- Used RMSE and MAPE for evaluation across training, test, and cross-validation splits.
+- Identified XGBoost as the most robust model for predicting complex patterns in tax revenue.
+
+### Causal Inference
+
+- Estimated:
+  - **ATE (Average Treatment Effect)**
+  - **LATE (Local Average Treatment Effect)**
+  - **CATE (Conditional Average Treatment Effect)**
+- Applied causal estimation techniques:
+  - OLS regression
+  - IPW (Inverse Probability Weighting)
+  - Doubly Robust Estimation
+  - Double Machine Learning (DML)
+- Implemented learning algorithms for CATE estimation:
+  - `S-Learner`, `T-Learner`, `X-Learner`, `R-Learner`, `Causal Transformation`
+- Evaluated predictive accuracy using MSE and pseudo-outcome metrics.
+
+---
+
+## Technologies Used
+
+- **Python**: core programming language
+- **pandas**, **NumPy**, **SciPy**: data manipulation & simulation
+- **scikit-learn**, **XGBoost**, **EconML**, **DoWhy**: modeling & causal inference
+- **Matplotlib**, **Seaborn**: data visualization
+- **Jupyter Notebook**: interactive coding environment
+
+---
+
+## Economic Insights
+
+- Causal analysis highlights the role of **fiscal culture** and **inequality** in moderating treatment effects.
+- Useful for evaluating the **economic impact of tax reforms** and informing public policy and business decisions.
+
+---
+
+## References
+
+- Laffer, A. (1981). *The Laffer Curve: Past, Present, and Future*
+- Goolsbee, Hall, & Katz (1999). *Behavioral Responses to Tax Policy*
+- Trabandt & Uhlig (2009). *Optimal Taxation in EU and US*
+- Chernozhukov et al. (2018). *Double/Debiased Machine Learning for Treatment and Structural Parameters*
+
+
 
 
 # [Probability of Default](https://github.com/vittoriashch/Pet-projects/blob/main/Python_projects/Probability%20of%20default%20pet-project-4.ipynb)
@@ -80,6 +156,7 @@ This project utilizes the following technologies:
 ## Data
 
 This project uses [this Kaggle dataset](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+
 
 
 
