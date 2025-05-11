@@ -40,7 +40,7 @@ This project utilizes the following technologies:
 - **Matplotlib**: For data visualization.
 - **Yahoo Finance API**: For data gathering 
 
-# [Causal Inference with Double Machine Learning on Tax Policy Simulation](https://github.com/vittoriashch/HSE-projects)
+# [Causal Inference with Double Machine Learning on Tax Policy Simulation](https://github.com/vittoriashch/HSE-projects](https://github.com/vittoriashch/Pet-projects/blob/main/Python_projects/Double%20ML%20project.ipynb))
 
 This project is a simulation-based exploration of the causal effects of tax policy on government revenues using Double Machine Learning (Double ML) and related causal inference techniques. It combines synthetic data generation, classification and regression modeling, and causal effect estimation to understand the impact of high versus low tax rates in complex economic environments.
 
